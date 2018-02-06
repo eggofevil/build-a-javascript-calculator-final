@@ -1,0 +1,86 @@
+@media (orientation: portrait) and (max-width: 480px) {
+    #box {
+        font-size: 47px;
+    }
+}
+@media (max-width: 414px) {
+    #box {
+        font-size: 40px;
+    }
+}
+@media (max-width: 384px) {
+    #box {
+        font-size: 37px;
+    }
+}
+@media (max-width: 375px) {
+    #box {
+        font-size: 36px;
+    }
+}
+@media (max-width: 360px) {
+    #box {
+        font-size: 35px;
+    }
+}
+@media (orientation: portrait) and (max-width: 320px) {
+    #box {
+        font-size: 31px;
+    }
+}
+@media (max-width: 854px) and (orientation: portrait) {
+    * {
+        font-family: sans-serif;
+    }
+    #box {
+        margin-top: 0ch;
+        width: 100%;
+        border: none;
+        border-radius: 0%;
+        background: #F5F5F5;
+        box-shadow: none;
+        height: 100vh;
+    }
+    #infoOutputDiv {
+        font-size: 0.8em;
+    }
+    #errOutputDiv {
+        font-size: 0.7em;
+    }
+    #footer {
+        font-size: 0.4em;
+        font-weight: bolder;
+        margin-top: 0.5em;
+    }
+    section {
+        width: 100%;
+    }
+    #screen {
+        height: 25%;
+    }
+    #mainOutputDiv {
+        height: 25%;
+    }
+    #infoOutputDiv {
+        height: 25%;
+    }
+    #errOutputDiv {
+        line-height: 100%;
+        height: 2em;
+    }
+    #controls {
+        height: 55%;
+    }
+    button {
+        height: 20%;
+        width: 25%;
+    }
+    .clearBut {
+        width: 50%;
+    }
+}
+@media (max-width: 854px) and (orientation: landscape) {
+    #box {
+        margin: 0 auto;
+    }
+}

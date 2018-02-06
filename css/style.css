@@ -1,0 +1,93 @@
+* {
+    text-align: center;
+    margin: 0.1em;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html{
+    margin: 0;
+    font-size: 0;
+}
+body {
+    background: #C0C0C0;
+}
+#box {
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 2ch;
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+    width: 21.5ch;
+    border: 1px solid #C0C0C0;
+    border-radius: 1ch;
+    background: #F5F5F5;
+    box-shadow: inset 0.05em 0.05em 0.02em #C0C0C0,
+    inset -0.02em -0.02em 0.1em #000000,
+    inset -0.1em -0.2em 0.5em #c4c4c4;
+}
+#header {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 2ch;
+    font-style: italic;
+}
+section {
+    width: 21ch;
+    margin: 0 auto;
+    padding: 0;
+}
+#screen {
+    background-color: #00008b;
+    color: #F5F5F5;
+    padding-right: 0.5ch;
+    padding-left: 0.5ch;
+}
+section div {
+    text-align: right;
+    margin: 0;
+}
+#infoOutputDiv {
+    overflow: hidden;
+    font-size: 0.8em;
+    direction: rtl;
+}
+#errOutputDiv {
+    font-size: 0.6em;
+    color: red;
+    line-height: 1em;
+    height: 2em;
+}
+bdo {
+    display: inline-block;
+    height: 100%;
+    text-align: right;
+    margin: 0;
+}
+#mainOutput {
+    font-style: normal;
+}
+#controls {
+    font-size: 0;
+    width: 100%;
+}
+button {
+    height: 2em;
+    width: 10.5ch;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 25px;
+    background: #F5F5F5;
+}
+.clearBut {
+    width: 21ch;
+}
+#footer {
+    font-size: 17px;
+    margin: 0 auto;
+}
+address {
+    margin: 0 auto;
+}
+#author {
+    margin: 0 auto;
+}
