@@ -51,6 +51,9 @@ section div {
     font-size: 0.8em;
     direction: rtl;
 }
+#infoOutput {
+    white-space: nowrap;
+}
 #errOutputDiv {
     font-size: 0.6em;
     color: red;
